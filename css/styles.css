@@ -1,0 +1,140 @@
+.mycard {
+    width: 235px;
+    height: 275px;
+    background: white;
+    padding: .4em;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.mycard:hover{
+    transform: scale(1.07);
+}
+
+.inst{
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    border-radius: 15px;
+
+}
+
+.inst:hover{
+  transform: scale(1.06);
+  border-radius: 15px;
+}
+  
+  
+.my-card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 74%;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .my-heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .my-heading:hover {
+    cursor: pointer;
+  }
+
+  .myimage{
+    width: 100%;
+    height: 100%;
+
+  }
+
+body::-webkit-scrollbar{ width: 7px; }
+body::-webkit-scrollbar-thumb{
+    background: #42b315;
+    border-radius: 4px;
+}
+
+/* Estilos generales para la tarjeta */
+.t_card {
+    position: relative;
+    width: 22rem; /* Ajustar el ancho de la tarjeta según sea necesario */
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #4a5568;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin: 25px 10px;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .t_card:hover{
+    transform: scale(1.04);
+}
+  
+  /* Estilos para la parte superior de la tarjeta (header) */
+  .t_card .t_header {
+    width: 90%;
+    position: relative;
+    margin: -1.5rem auto;
+    height: 11rem; /* Ajustar la altura de la cabecera según sea necesario */
+    overflow: hidden;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, #4299e1, #3182ce);
+    box-shadow: 0 10px 15px -3px rgba(93, 93, 94, 0.822), 0 4px 6px -2px rgba(43, 44, 44, 0.849);
+  }
+  
+  /* Estilos para el contenido de la tarjeta */
+  .t_card .t_content {
+    padding: 1.5rem;
+  }
+  
+  .t_card .t_card-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #000;
+    text-align: center;
+  }
+  
+  .t_card .t_card-text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #000;
+    text-align: center;
+  }
+  
+  /* Estilos para el pie de la tarjeta (footer) */
+  .t_card .t_footer {
+    padding: 1.5rem;
+  }
+  
+  /* Estilos para el botón de "Read More" */
+  .t_card .t_read-more-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    background-color: #4299e1;
+    color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(66, 153, 225, 0.25);
+    transition: all 0.3s ease;
+  }
+  
+  .t_card .t_read-more-btn:hover {
+    box-shadow: 0 3px 6px -1px rgba(66, 153, 225, 0.5);
+  }
+  
+  .t_card .t_read-more-btn:focus {
+    outline: none;
+  }
+  
+  .t_card .t_read-more-btn:active {
+    transform: translateY(1px);
+  }
+  
