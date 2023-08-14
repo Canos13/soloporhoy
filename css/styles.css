@@ -137,4 +137,12 @@ body::-webkit-scrollbar-thumb{
   .t_card .t_read-more-btn:active {
     transform: translateY(1px);
   }
+
+  .hidden-name{ display: none; }
+
+
+  @media (max-width: 991px) {
+    .hidden-name{ display: block; }
+    .show-name  { display: none;  }
+  }
   
