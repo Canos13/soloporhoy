@@ -157,6 +157,24 @@ body::-webkit-scrollbar-thumb{
     }
   }
 
+  @media (max-width: 325px) {
+    .title_navbar{
+        font-size: 1.55rem;
+    }
+  }
+
+  @media (max-width: 290px) {
+    .title_navbar{
+        font-size: 1.35rem;
+    }
+  }
+
+  @media (max-width: 268px) {
+    .title_navbar{
+        font-size: 1.2rem;
+    }
+  }
+
   @media (max-width: 305px) {
     .contact-info{
       padding: 10px;
