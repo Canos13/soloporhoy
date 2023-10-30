@@ -375,12 +375,12 @@ strong {
 .photos-videos .item .thumb .top-content {
   position: absolute;
   display: inline-block;
-  top: 30px;
+  top: 275px;
   left: 30px;
   right: 30px;
-  background-color: #fff;
+  background-color: #ffffff31;
   border-radius: 10px;
-  padding: 15px 25px;
+  padding: 10px 15px;
 }
 
 .photos-videos .item .thumb .top-content h4 {
