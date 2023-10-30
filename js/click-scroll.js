@@ -1,5 +1,5 @@
 var sectionArray = [
-    1, 2, 3, 4, 5,6,7
+    1, 2, 3, 4, 5,6,7,8
 ];
 
 var sections = [
@@ -7,6 +7,7 @@ var sections = [
     'informacion',
     'tratamientos',
     'autodiagnostico',
+    'modelo',
     'instalaciones',
     'nosostros',
     'contacto',
